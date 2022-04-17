@@ -2,7 +2,7 @@ package com.qa.OpenCart.Pages;
 
 import org.openqa.selenium.By;
 
-public class CartPage {
+public class Testing {
 	
 	private By cart=By.id("cart");
 	
