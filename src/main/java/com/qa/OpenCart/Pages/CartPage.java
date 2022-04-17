@@ -21,6 +21,9 @@ public class CartPage {
 
 		String f2="feature";
 		System.out.println(f2);
+		
+		String f3="feature";
+		System.out.println(f2);
 	}
 
 }
