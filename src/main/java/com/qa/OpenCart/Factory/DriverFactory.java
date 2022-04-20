@@ -1,5 +1,6 @@
 package com.qa.OpenCart.Factory;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -55,7 +56,7 @@ public class DriverFactory {
 		else if (browserName.equalsIgnoreCase(Browser.FIREFOX_BROWSER_VAUE)) {
 			WebDriverManager.firefoxdriver().setup();
 			//System.setProperty(Browser.GECKO_DRIVER_BINARY_KEY, Browser.FIREFOX_DRIVER_PATH);
-			//tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));
+			tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));
 		} 
 		else if (browserName.equalsIgnoreCase(Browser.SAFARI_BROWSER_VAUE)) {
 			tlDriver.set(new SafariDriver());
